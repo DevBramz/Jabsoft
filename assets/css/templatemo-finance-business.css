@@ -174,7 +174,9 @@ a.border-button:hover {
 /* Sub Header Style */
 
 .sub-header {
-	background-color: #015699;
+	/* background-color: #fff!important; */
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+	background-color: #00aeef;
 	height: 46px;
 	line-height: 46px;
 }
@@ -235,8 +237,9 @@ header {
 	position: absolute;
 	z-index: 99999;
 	width: 100%;
-	background-color: transparent!important;
-	height: 80px;
+	/* background-color: #fff!important; */
+	/* background-color: transparent!important; */
+	/* height: 40px; */
 	-webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
@@ -244,9 +247,13 @@ header {
 }
 header .navbar {
 	padding: 20px 0px;
+	background-color: #fff!important;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar {
 	padding: 10px 0px;
+	background-color: #fff!important;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header {
 	top: 0;
@@ -273,7 +280,8 @@ header .navbar {
 	outline: none;
 }
 .navbar .navbar-brand h2 {
-	color: #fff;
+	/* color: #fff; */
+	color: #015699!important;
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 700;
@@ -283,7 +291,7 @@ header .navbar {
     transition: all .3s ease 0s;
 }
 .navbar .navbar-brand h5 {
-	color: #fff;
+	color: #015699!important;
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 700;
@@ -310,7 +318,8 @@ header .navbar {
 	font-size: 15px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
-	color: #fff;
+	/* color: #fff; */
+	color: #015699!important;
 	transition: all 0.5s;
 	margin-top: 5px;
 }
@@ -397,7 +406,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/cctv3.png);
+	background-image: url(../images/allphots-modified.png);
 }
 
 .Modern-Slider .item-2 .img-fill {
@@ -405,7 +414,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/fleet-modified.jpeg);
+	background-image: url(../images/fleetmanagement2-modified\ \(1\).png);
 }
 .Modern-Slider .item-4 .img-fill {
 	background-image: url(../images/erp9-modified.png);
@@ -535,7 +544,7 @@ ul.slick-dots {
 /* Request Form */
 
 .request-form {
-	background-color: #015699;
+	background-color: #00aeef;
 	padding: 40px 0px;
 	color: #fff;
 }
@@ -1066,7 +1075,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/page-heading-bg.jpg);
+	background-image: url(../images/allphots-modified.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
