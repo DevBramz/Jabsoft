@@ -406,11 +406,11 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/allphots.png);
+	background-image: url(../images/allphots-modified.png);
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/server-modified.png);
+	background-image: url(../images/server.png);
 }
 
 .Modern-Slider .item-3 .img-fill {
@@ -1075,7 +1075,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/allphots-modified.png);
+	background-image: url(../images/allphots.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1092,6 +1092,56 @@ footer .contact-form button.filled-button:hover {
 }
 
 .page-heading span {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	display: block;
+}
+.page-heading1 {
+	text-align: center;
+	background-image: url(../images/server.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
+
+.page-heading1 h1 {
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 18px;
+}
+
+.page-heading1 span {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	display: block;
+}
+.page-heading2 {
+	text-align: center;
+	background-image: url(../images/ERP2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
+
+.page-heading2 h1 {
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 18px;
+}
+
+.page-heading2 span {
 	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
