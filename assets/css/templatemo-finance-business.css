@@ -1148,7 +1148,31 @@ footer .contact-form button.filled-button:hover {
 	color: #fff;
 	display: block;
 }
+.page-heading4 {
+	text-align: center;
+	background-image: url(../images/fleet4.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
 
+.page-heading4 h1 {
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 18px;
+}
+
+.page-heading4 span {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	display: block;
+}
 
 /* team */
 
